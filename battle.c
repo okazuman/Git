@@ -3,12 +3,7 @@
 #include <time.h>
 
 int main(void){
-char a[100];  
 int s,k,t;
-
-printf("What is your name?\n");
-  scanf("%s",a);
-  printf("Hello,%s\n",a);
 
   srand(time(NULL));
  
@@ -20,10 +15,10 @@ printf("What is your name?\n");
  t = s+k;
  printf("Total value :%d\n",t);
 
- if(t >= 7){
-   printf("%s won!\n",a);
+ if(t >= 8){
+   printf("%you won!\n",a);
  }
- else printf("%s lost!\n",a);
+ else printf("%you lost!\n",a);
  
   return 0;
 }
